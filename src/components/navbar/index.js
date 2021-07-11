@@ -12,19 +12,22 @@ const NavBar = () => {
       <div>
         <div className={styles.section}>
           <ActiveLink to="/">Home</ActiveLink>
-          <hr/>
-          <ActiveLink to="/">About me</ActiveLink>
-          <ActiveLink to="/test">Projects</ActiveLink>
-          <ActiveLink to="/test">Experience</ActiveLink>
-          <ActiveLink to="/test">Education</ActiveLink>
+          {window.location.pathname === "/" ? (
+            <>
+              <hr />
+              <ActiveLink scroll="about">About</ActiveLink>
+              <ActiveLink scroll="projects">Projects</ActiveLink>
+              <ActiveLink scroll="experience">Experience</ActiveLink>
+              <ActiveLink scroll="education">Education</ActiveLink>
+            </>
+          ) : null}
         </div>
-        
+
         <div className={styles.section}>
-          <ActiveLink to="/" disable> Teaching </ActiveLink>
-          <hr/>
+          <ActiveLink disable> Teaching </ActiveLink>
+          <hr />
           <ActiveLink to="/cs61a">CS 61A</ActiveLink>
         </div>
-        
       </div>
     </div>
   );

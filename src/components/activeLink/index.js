@@ -5,28 +5,43 @@ import classNames from "classnames";
 import PropTypes from "prop-types";
 
 const ActiveLink = (props) => {
-  const { to, children, disable } = props;
+  const { to, scroll, children} = props;
+
   return (
     <div className={classNames(styles.linkContainer)}>
-      <Link
-        to={to}
-        className={classNames(styles.link, disable ? styles.disabled : "")}
-        activeClassName={classNames(styles.active)}
-        disabled={disable}
-      >
-        {children}
-      </Link>
+      {scroll ? (
+        <a
+          href="#"
+          className={classNames(styles.link)}
+          onClick={(event) => {
+            event.preventDefault();
+            document
+              .getElementById(scroll)
+              .scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          {children}
+        </a>
+      ) : (
+        <Link
+          to={to}
+          className={classNames(styles.link)}
+          activeClassName={classNames(styles.active)}
+        >
+          {children}
+        </Link>
+      )}
     </div>
   );
 };
 
 ActiveLink.propTypes = {
   to: PropTypes.string,
-  disable: PropTypes.bool,
 };
 
 ActiveLink.defaultProps = {
-  disable: false,
-}
+  scroll: null,
+  to: null,
+};
 
 export default ActiveLink;

@@ -1,17 +1,17 @@
 import React from "react";
 import NavBar from "../components/navbar";
 import Page from "../components/page";
-import Home from "../layout/index";
+import CS61A from "../layout/cs61a";
 
-const Index = () => {
+const Teaching = () => {
   return (
     <main>
       <title>Home Page</title>
       <Page>
-        <Home></Home>
+        <CS61A></CS61A>
       </Page>
     </main>
 
   )
 }
-export default Index;
+export default Teaching;
