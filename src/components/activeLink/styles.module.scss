@@ -1,0 +1,22 @@
+@import "../../styles/variables.scss";
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.linkContainer {
+  padding: map-get($padding, "m");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.disabled {
+  pointer-events: none;
+}

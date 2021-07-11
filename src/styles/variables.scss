@@ -1,0 +1,11 @@
+$padding: 1rem !default;
+$padding: (
+  's': ($padding * 0.25),
+  'm': ($padding * 0.50),
+  'l': ($padding * 1.00),
+  'xl': ($padding * 1.50),
+);
+
+$dark-grey: rgba(50,50,50);
+
+$nav-bar-width: 18rem;

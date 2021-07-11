@@ -1,0 +1,16 @@
+@import "../../styles/variables.scss";
+
+.container {
+  height: 100%;
+}
+
+.navBarContainer {
+  height: 100%;
+  position: absolute;
+}
+
+.contentContainer {
+  position: absolute;
+  left: $nav-bar-width;
+  padding: map-get($padding, "xl");
+}

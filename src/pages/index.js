@@ -1,12 +1,14 @@
 import React from "react";
+import NavBar from "../components/navbar";
+import Page from "../components/page";
 
 const TestPage = () => {
   return (
     <main>
       <title>Home Page</title>
-      <h1>
-        Congratulations
-      </h1>
+      <Page>
+        Hello
+      </Page>
     </main>
 
   )
