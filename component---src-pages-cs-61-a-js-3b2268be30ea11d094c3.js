@@ -1,0 +1,2 @@
+(self.webpackChunkpatrick_wang=self.webpackChunkpatrick_wang||[]).push([[427],{1076:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return r}});var l=t(7294),u=(t(2416),t(6446)),a=function(){return l.createElement("div",null,"CS 61A page coming soon!")},r=function(){return l.createElement("main",null,l.createElement("title",null,"Home Page"),l.createElement(u.Z,null,l.createElement(a,null)))}}}]);
+//# sourceMappingURL=component---src-pages-cs-61-a-js-3b2268be30ea11d094c3.js.map
