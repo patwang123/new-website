@@ -10,7 +10,12 @@
 }
 
 .contentContainer {
+  width: calc(100% - #{$nav-bar-width});
   position: absolute;
   left: $nav-bar-width;
-  padding: map-get($padding, "xl");
+
+  &.mobile {
+    left: 0 !important;
+    width: 100vw;
+  }
 }

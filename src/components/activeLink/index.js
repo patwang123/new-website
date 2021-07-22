@@ -5,14 +5,14 @@ import classNames from "classnames";
 import PropTypes from "prop-types";
 
 const ActiveLink = (props) => {
-  const { to, scroll, children} = props;
+  const { to, scroll, children, className, activeClassName } = props;
 
   return (
     <div className={classNames(styles.linkContainer)}>
       {scroll ? (
         <a
           href="#"
-          className={classNames(styles.link)}
+          className={classNames(styles.link, className)}
           onClick={(event) => {
             event.preventDefault();
             document
@@ -25,8 +25,8 @@ const ActiveLink = (props) => {
       ) : (
         <Link
           to={to}
-          className={classNames(styles.link)}
-          activeClassName={classNames(styles.active)}
+          className={classNames(styles.link, className)}
+          activeClassName={classNames(styles.active, activeClassName)}
         >
           {children}
         </Link>

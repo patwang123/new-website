@@ -2,26 +2,20 @@ import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 import classNames from "classnames";
 import { Link } from "gatsby";
-import ActiveLink from "../activeLink";
-import MobileSideBar from "./mobilesidebar";
+import ActiveLink from "../../activeLink";
 
 import * as styles from "./styles.module.scss";
 import Scrollspy from "react-scrollspy";
 
-import { Mobile, NonMobile } from "../Breakpoints";
-import { faFile } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faBars } from "@fortawesome/free-solid-svg-icons";
+const MobileSideBar = (props) => {
 
-const NavBar = () => {
-
-  const [expanded, setExpanded] = useState(false);
+  const { expanded } = props;
 
   const routes = ["about", "experience", "projects", "education"];
   return (
     <>
-    <NonMobile>
-      <div className={styles.navBarContainer}>
+      <div className={classNames(styles.overlay, "overlay", expanded ? styles.expanded : "")}></div>
+      <div className={classNames(styles.navBarContainer, expanded ? styles.expanded : "")}>
       <div>
         <div className={styles.section}>
           {window.location.pathname === "/" ? (
@@ -65,16 +59,9 @@ const NavBar = () => {
           </ActiveLink>
         </div>
       </div>
-    </div>
-    </NonMobile>
-    <Mobile>
-      <MobileSideBar expanded={expanded}></MobileSideBar>
-      <button className={styles.hamburger} onClick={(event) => setExpanded(!expanded)}>
-        <FontAwesomeIcon icon={faBars} size="2x" color="white"></FontAwesomeIcon>
-      </button> 
-    </Mobile>
-    </>
+      </div>
+      </>
   );
 };
 
-export default NavBar;
+export default MobileSideBar;
