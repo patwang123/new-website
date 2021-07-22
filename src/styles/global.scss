@@ -34,6 +34,7 @@ a:hover {
 .section {
   padding: 7rem map-get($padding, "xl");
   width: 100%;
+  max-width: 75rem;
   margin: 0;
 }
 
