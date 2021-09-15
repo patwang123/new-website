@@ -1,5 +1,6 @@
 import React from "react";
 import {ReactDOMServer} from "react-dom";
+import { NonMobile, Mobile } from "../../../../components/Breakpoints";
 
 const ExperienceCard = (props) => {
   const { position, company, date, descriptions} = props;
@@ -9,8 +10,13 @@ const ExperienceCard = (props) => {
         <div style={{float: "left"}}>
           <h4 style={{margin: 0, padding: 0}}>{position}</h4>
           <div>{company}</div>
+          <Mobile>
+            <div>{date}</div>
+          </Mobile>
         </div>
-        <div style={{float: "right"}}>{date}</div>
+        <NonMobile>
+          <div style={{float: "right"}}>{date}</div>
+        </NonMobile>
       </div>
       <div>
         <ul>

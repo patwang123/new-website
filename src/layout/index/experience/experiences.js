@@ -1,20 +1,22 @@
 const experiences = [
   {
-    position: "Software Engineer Intern",
-    company: "Hatch",
-    date: "May 2020 ⁠— Present",
-    descriptions: [
-      "Developing features that include an email notification system, user preferences, feedback requests, sending file attachments, as well as improving networking times for faster page loads",
-      "Full stack development with NextJS, MySQL/GraphQL, AWS CDK, DynamoDB, and other AWS services"
-    ]
-  },
-  {
     position: "Undergraduate Student Instructor",
     company: "UC Berkeley CS 61A",
     date: "June 2021 ⁠— Present",
     descriptions: [
-      "Teaching discussion sections of 60 students for the introductory CS class at UC Berkeley",
-      "Managing course infrastructure and apps in the <a href=\"https://www.gmail.com/\">CS 61A apps repo</a> for around 1000 students each semester as well as other courses"
+      "Led discussions of more than 50 students in the introductory CS class at Berkeley, receiving significantly above average course evaluations",
+      "Focus area on software, developing website, office hour queues, section tools, and more for almost 2000 students each semester",
+      "Used ReactJS, Flask, MySQL, Google Cloud, HTML, Markdown"
+    ]
+  },
+  {
+    position: "Software Engineer Intern",
+    company: "Hatch",
+    date: "May 2020 ⁠— Present",
+    descriptions: [
+      "Contributed to a full-stack application that acts as an incubator and forum for startups, allowing for convenient idea validation, user feedback, and advanced customer metrics",
+      "Created high priority features necessary for the product, such as feedback requests, notification systems, customer engagement rankings, chat systems, and more",
+      "Used NextJS, Python, AWS EC2, S3, DynamoDB, RDS, CloudWatch, Lambda, AppSync, SES, SQS, Cognito"
     ]
   },
   {
@@ -22,16 +24,9 @@ const experiences = [
     company: "Rimble",
     date: "February 2021 ⁠— May 2021",
     descriptions: [
-      "Machine learning model designed to generate accurate real time odds and analytics",
-      "Lead website development for funneling investors and developed API for clients"
-    ]
-  },
-  {
-    position: "Research Intern",
-    company: "University of Maryland, College Park",
-    date: "June 2019 ⁠— August 2019",
-    descriptions: [
-      "Researched the effectiveness of machine learning on breaking classical/modern ciphers with Tensorflow"
+      "Developed API and authentication system for predicting professional League of Legends e-sports game odds using machine learning for a seed round startup",
+      "Led development on website to act as a sales funnel for potential investors, creating metrics, key selling points, and API documentation",
+      "Used ReactJS, Python, Django, AWS Lambda"
     ]
   },
   {
@@ -39,8 +34,9 @@ const experiences = [
     company: "Johns Hopkins Applied Physics Laboratory",
     date: "June 2018 ⁠— August 2018",
     descriptions: [
-      "Helped design a framework for the integration of various models to predict long-term natural resource allocations",
-      "Performed data analysis for model testing"
+      "Designed a framework to integrate various resource models to predict long-term resource allocations and advise governmental policies",
+      "Performed data analysis for model testing on large fragmented data",
+      "Used Python, Pandas, Numpy, Java"
     ]
   },
   

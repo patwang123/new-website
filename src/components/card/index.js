@@ -13,7 +13,7 @@ const Card = (props) => {
       {image != null ? <div className={styles.image}>{image}</div> : null}
       {href != null ? (
         <div>
-          <a className={styles.link} href={href.url}>
+          <a className={styles.link} href={href.url} target="_blank" rel="noreferrer">
             {href.name}
           </a>
         </div>

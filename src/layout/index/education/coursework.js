@@ -12,22 +12,17 @@ const coursework = [
   {
     name: "CS 70 (A+)",
     description: "Discrete Mathematics and Probability Theory",
-    href: { url: "https://eecs.cs70.org/", name: "Course Website" },
+    href: { url: "https://www.eecs70.org/", name: "Course Website" },
   },
   {
     name: "CS 61C (In Progress)",
     description: "Machine Structures",
-    href: { url: "https://eecs.cs70.org/", name: "Course Website" },
+    href: { url: "https://cs61c.org/", name: "Course Website" },
   },
   {
     name: "CS 170 (In Progress)",
     description: "Efficient Algorithms and Intractable Problems",
-    href: { url: "https://eecs.cs70.org/", name: "Course Website" },
-  },
-  {
-    name: "CS 188 (In Progress)",
-    description: "Introduction to Artificial Intelligence",
-    href: { url: "https://eecs.cs70.org/", name: "Course Website" },
+    href: { url: "https://cs170.org/", name: "Course Website" },
   },
   {
     name: "EECS 16A (A)",

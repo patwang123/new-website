@@ -1,4 +1,5 @@
 import React from "react";
+import { Mobile, NonMobile } from "../../../components/Breakpoints";
 
 const Schools = () => (
   <>
@@ -9,8 +10,13 @@ const Schools = () => (
             University of California, Berkeley
           </h4>
           <div>B.S. Electrical Engineering and Computer Science</div>
+          <Mobile>
+            <div>August 2020 ⁠— Present</div>
+          </Mobile>
         </div>
-        <div style={{ float: "right" }}>August 2020 ⁠— Present</div>
+        <NonMobile>
+          <div style={{ float: "right" }}>August 2020 ⁠— Present</div>
+        </NonMobile>
       </div>
       <div>
         GPA: 4.0
@@ -23,8 +29,13 @@ const Schools = () => (
             Montgomery Blair High School
           </h4>
           <div>STEM Magnet Program</div>
+          <Mobile>
+            <div>August 2016 ⁠— June 2020</div>
+          </Mobile>
         </div>
-        <div style={{ float: "right" }}>August 2016 ⁠— June 2020</div>
+        <NonMobile>
+          <div style={{ float: "right" }}>August 2016 ⁠— June 2020</div>
+        </NonMobile>
       </div>
       <div>
         USACO Gold Medalist, AIME qualifier, Varsity swimming
