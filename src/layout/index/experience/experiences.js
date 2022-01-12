@@ -1,5 +1,21 @@
 const experiences = [
   {
+    position: "Software Engineer Intern",
+    company: "Riot Games",
+    date: "May 2022 ⁠— Present",
+    descriptions: [
+      "Incoming intern, production engineering"
+    ]
+  },
+  {
+    position: "Software Development Engineer Intern",
+    company: "Amazon",
+    date: "Feb 2022 ⁠— Present",
+    descriptions: [
+      "Incoming intern"
+    ]
+  },
+  {
     position: "Undergraduate Student Instructor",
     company: "UC Berkeley CS 61A",
     date: "June 2021 ⁠— Present",

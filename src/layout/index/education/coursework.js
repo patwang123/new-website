@@ -15,20 +15,25 @@ const coursework = [
     href: { url: "https://www.eecs70.org/", name: "Course Website" },
   },
   {
-    name: "CS 61C (In Progress)",
+    name: "CS 61C (A+)",
     description: "Machine Structures",
     href: { url: "https://cs61c.org/", name: "Course Website" },
   },
   {
-    name: "CS 170 (In Progress)",
+    name: "CS 170 (A)",
     description: "Efficient Algorithms and Intractable Problems",
     href: { url: "https://cs170.org/", name: "Course Website" },
   },
   {
-    name: "EECS 16A (A)",
-    description: "Designing Information Devices and Systems I",
-    href: { url: "https://eecs16a.org/", name: "Course Website" },
+    name: "CS 188 (In Progress)",
+    description: "Introduction to Artificial Intelligence",
+    href: { url: "https://inst.eecs.berkeley.edu/~cs188/su21/", name: "Course Website" },
   },
+  {
+    name: "Data 8 (In Progress)",
+    description: "Foundations of Data Science",
+    href: { url: "http://data8.org/", name: "Course Website" },
+  }
 ];
 
 export default coursework;
