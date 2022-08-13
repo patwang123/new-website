@@ -11,8 +11,8 @@ const About = () => {
     <div id="about" className={classNames(styles.about, "section")}>
       <div>
       <div style={{fontSize: "2.2rem"}}>
-        Hey! I'm Patrick, a sophomore at UC Berkeley majoring in EECS. I'm primarily interested in the fields
-        of software engineering and machine learning, and am currently looking for intern roles in those areas.
+        Hey! I'm Patrick, a junior at UC Berkeley majoring in EECS. I'm primarily interested in the software engineering 
+        field, and am currently looking for intern roles in those areas.
         Feel free to reach out to me!
       </div>
       <div style={{marginTop: "1rem"}}>
@@ -25,7 +25,7 @@ const About = () => {
         <a className={styles.introLink} href="mailto:patwang123@berkeley.edu" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
         </a>
-        <a className={styles.introLink} href="https://www.linkedin.com/in/patrick-wang-366992193/" target="_blank" rel="noreferrer">
+        <a className={styles.introLink} href="https://www.linkedin.com/in/patwang123/" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
         </a>
       </div>

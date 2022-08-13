@@ -12,7 +12,7 @@ const experiences = [
   {
     position: "Software Development Engineer Intern",
     company: "Amazon",
-    date: "Feb 2022 ⁠— Present",
+    date: "Feb 2022 ⁠— May 2022",
     descriptions: [
       "Contributed to the payment service for Amazon Music’s royalty payments to labels and producers",
       "Optimized config and mapping loading times for the payment service, reducing execution times by over 90% and increasing service reliability against failures in various AWS services",
@@ -32,7 +32,7 @@ const experiences = [
   {
     position: "Software Engineer Intern",
     company: "Hatch",
-    date: "May 2020 ⁠— Present",
+    date: "May 2021 ⁠— Aug 2021",
     descriptions: [
       "Contributed to an incubator and forum for startups, allowing for convenient idea validation, user feedback, and advanced customer metrics using NextJS, AWS CDK, EC2, S3, DynamoDB, RDS, Lambda, and SQS",
       "Created high priority features necessary for the product, such as user preferences, feedback requests, notification systems, chat systems, and customer engagement rankings"
