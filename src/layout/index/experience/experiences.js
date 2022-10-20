@@ -1,5 +1,21 @@
 const experiences = [
   {
+    position: "Incoming Software Engineer Intern",
+    company: "Databricks",
+    date: "May 2023 ⁠— Aug 2023",
+    descriptions: [
+      "Summer 2023"
+    ]
+  },
+  {
+    position: "Incoming Software Engineer Intern",
+    company: "Stripe",
+    date: "Jan 2023 ⁠— Apr 2022",
+    descriptions: [
+      "Winter 2023"
+    ]
+  },
+  {
     position: "Software Engineer Intern",
     company: "Riot Games",
     date: "May 2022 ⁠— Aug 2022",
