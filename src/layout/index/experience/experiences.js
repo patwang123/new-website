@@ -2,7 +2,7 @@ const experiences = [
   {
     position: "Incoming Software Engineer Intern",
     company: "Databricks",
-    date: "May 2023 ⁠— Aug 2023",
+    date: "May 2023 ⁠— Present",
     descriptions: [
       "Summer 2023"
     ]
@@ -10,9 +10,18 @@ const experiences = [
   {
     position: "Incoming Software Engineer Intern",
     company: "Stripe",
-    date: "Jan 2023 ⁠— Apr 2022",
+    date: "Jan 2023 ⁠— Present",
     descriptions: [
       "Winter 2023"
+    ]
+  },
+  {
+    position: "Undergraduate Student Instructor",
+    company: "UC Berkeley CS 61A",
+    date: "June 2021 ⁠— Present",
+    descriptions: [
+      "Lead discussions of more than 50 students in the introductory computer science course at Berkeley, receiving outstanding course evaluations",
+      "Focus area on software, developing website, office hour queues, section tools, and more for almost 2000 students each semester using React, Flask, MySQL, and Google Cloud"
     ]
   },
   {
@@ -34,15 +43,6 @@ const experiences = [
       "Optimized config and mapping loading times for the payment service, reducing execution times by over 90% and increasing service reliability against failures in various AWS services",
       "Automated adjustment payments for minimum revenue contracts, handling payments of up to $10 million to labels",
       "Used Python, Java, Guice, AWS S3, DynamoDB, Lambda"
-    ]
-  },
-  {
-    position: "Undergraduate Student Instructor",
-    company: "UC Berkeley CS 61A",
-    date: "June 2021 ⁠— Present",
-    descriptions: [
-      "Lead discussions of more than 50 students in the introductory computer science course at Berkeley, receiving outstanding course evaluations",
-      "Focus area on software, developing website, office hour queues, section tools, and more for almost 2000 students each semester using React, Flask, MySQL, and Google Cloud"
     ]
   },
   {
