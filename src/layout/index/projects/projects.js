@@ -1,22 +1,26 @@
 const Projects = [
   {
     title: "Personal website",
-    description: "Created this personal website with Gatsby and React. You are here right now.",
+    description: "Personal website with Gatsby and React. You are here right now.",
     href: {url: "https://github.com/patwang123/new-website", name: "Github"},
   },
   {
     title: "ShallowSleep",
-    description: "Developed a machine learning model to track sleeping stages with radio signals using LSTMs and CNNs in an adversarial model, along with a visualizer in React to help understand the results.",
+    description: "Machine learning model to track sleeping stages with radio signals using LSTMs and CNNs in an adversarial model, along with a visualizer in React to help understand the results.",
     // href: {url: "https://www.google.com/", name: "Github"},
   },
   {
     title: "Gitlet",
-    description: "Created a scuffed version of Git in Java for CS 61B that is able to handle standard commands such as add, remove, checkout, commit, reset, log, and remote commands.",
+    description: "Scuffed version of Git in Java for CS 61B that is able to handle standard commands such as add, remove, checkout, commit, reset, log, and remote commands.",
     // href: {url: "https://www.google.com/", name: "Github"},
   },
   {
+    title: "PintOS",
+    description: "Operating system written in C for CS 162 that supports multi-threading, filesystems, syscalls, and more."
+  },
+  {
     title: "Todo list",
-    description: "Created a standard todo list with essential functionalities, created using Django, MySQL, and API using the Django REST Framework",
+    description: "Standard todo list with essential functionalities, created using Django, MySQL, and API using the Django REST Framework",
     href: {url: "https://github.com/patwang123/todo-list", name: "Github"},
   },
   {
