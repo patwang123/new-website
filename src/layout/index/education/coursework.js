@@ -45,17 +45,17 @@ const coursework = [
     href: { url: "https://www.eecs16b.org/", name: "Course Website" },
   },
   {
-    name: "CS 162 (In Progress)",
+    name: "CS 162 (A)",
     description: "Operating Systems and Systems Programming",
     href: { url: "https://cs162.org/", name: "Course Website" },
   },
   {
-    name: "CS 186 (In Progress)",
+    name: "CS 186 (A+)",
     description: "Introduction to Database Systems",
     href: { url: "https://cs186berkeley.net/", name: "Course Website" },
   },
   {
-    name: "Data 100 (In Progress)",
+    name: "Data 100 (A+)",
     description: "Principles and Techniques of Data Science",
     href: { url: "https://ds100.org/", name: "Course Website" },
   },
