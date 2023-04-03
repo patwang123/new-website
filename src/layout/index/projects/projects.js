@@ -28,11 +28,6 @@ const Projects = [
     description: "React app to visualize pathfinding algorithms such as A* and Djikstras, demonstrating the use of heuristic functions and various aspects of these algorithms.",
     href: {url: "https://github.com/patwang123/Pathfinding-Visualizer", name: "Github"},
   },
-  { 
-    title: "Sorting Visualizer",
-    description: "Visualizes sort algorithms such as Quick sort, Counting sort, Heap sort, Merge sort, using the matplotlib library's FuncAnimation.",
-    href: {url: "https://www.github.com/patwang123/Sorting-Visualizer", name: "Github"}
-  }
 ];
 
 export default Projects;
