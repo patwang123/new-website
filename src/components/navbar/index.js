@@ -17,7 +17,7 @@ const NavBar = () => {
 
   const [expanded, setExpanded] = useState(false);
 
-  const routes = ["about", "experience", "projects", "education"];
+  const routes = ["about", "projects", "education"];
   return (
     <>
     <NonMobile>

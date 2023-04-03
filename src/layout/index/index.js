@@ -2,7 +2,6 @@ import React from "react";
 import About from "./about";
 import Education from "./education";
 import Projects from "./projects";
-import Card from "../../components/card";
 
 const Home = () => {
   return (
