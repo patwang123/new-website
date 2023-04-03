@@ -1,8 +1,8 @@
 import React from "react";
 import * as styles from "./styles.module.scss";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faEnvelope,faPaperclip,faAngleDown} from '@fortawesome/free-solid-svg-icons';
-import { faTwitter, faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope,faPaperclip } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 import resume from "../../../static/patrick_wang_resume.pdf";
 import classNames from "classnames";
 

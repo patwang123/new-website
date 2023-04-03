@@ -10,8 +10,6 @@ const Home = () => {
     <div>
       <About></About>
       <hr className="section-divider"></hr>
-      <Experience></Experience>
-      <hr className="section-divider"></hr>
       <Projects></Projects>
       <hr className="section-divider"></hr>
       <Education></Education>
